@@ -612,3 +612,142 @@ h6 {
   justify-content: center;
 }
 /* footer end */
+
+/* how it works section start */
+.howitworks-section-one {
+  margin: 120px 0 677px;
+}
+
+.howitworks-section-one .dc-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.howitworks-section-one .row-div {
+  display: flex;
+  width: 100%;
+}
+
+.howitworks-section-one .row-div.first-one {
+  margin: 0 0 170px 0;
+}
+
+.howitworks-section-one .div-text-item {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+}
+
+.howitworks-section-one .div-text-item h2.title {
+  font-size: 35px;
+  line-height: 160%;
+  position: relative;
+}
+
+.howitworks-section-one .div-text-item h2.title span {
+  position: absolute;
+  width: 80px;
+  left: -80px;
+  top: 0;
+  font-size: 35px;
+  line-height: 160%;
+  color: #828282;
+  opacity: 0.4;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 160%;
+}
+
+.howitworks-section-one .div-text-item p {
+  margin: 51px 0 0 0;
+  font-size: 25px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.howitworks-section-one .div-img {
+  display: flex;
+  align-items: flex-start;
+  flex: 0 0 50%;
+}
+
+.howitworks-section-one .row-div.first-one .div-text-item {
+  padding-top: 85px;
+}
+
+.howitworks-section-one .row-div.first-one .div-img {
+  justify-content: flex-end;
+}
+
+.howitworks-section-one .row-div.second-one {
+  margin: 0 0 166px 0;
+}
+
+.howitworks-section-one .row-div.second-one .div-text-item {
+  padding-top: 95px;
+}
+
+.howitworks-section-one .row-div.third-one {
+  margin: 0 0 116px 0;
+}
+
+.howitworks-section-one .row-div.third-one .div-text-item {
+  padding-top: 10px;
+}
+
+.howitworks-section-one .row-div.third-one .div-text-item p {
+  max-width: 472px;
+}
+
+.howitworks-section-one .row-div.third-one .div-img {
+  justify-content: flex-end;
+}
+
+.howitworks-section-one .find-us-everyhwere {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.howitworks-section-one .find-us-everyhwere h2.title {
+  margin: 0;
+  font-weight: bold;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.howitworks-section-one .find-us-everyhwere h2.title:after {
+  content: ' ';
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -26px;
+}
+
+.howitworks-section-one .find-us-everyhwere h4.sub-title {
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #f2f2f2;
+  margin: 52px 0 0 0;
+}
+
+.howitworks-section-one .find-us-everyhwere .img-pc {
+  width: 732px;
+  height: 428px;
+  margin: 55px auto 0;
+}
+/* how it works section end */
+
+/* help styles start */
+#get-in-touch-section {
+  background: url('../images/help-bg.png') no-repeat;
+  background-size: 100% 100%;
+  min-height: 754px;
+}
+/* help styles end */
