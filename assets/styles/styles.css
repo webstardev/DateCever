@@ -749,5 +749,67 @@ h6 {
   background: url('../images/help-bg.png') no-repeat;
   background-size: 100% 100%;
   min-height: 754px;
+  padding-top: 123px;
+  padding-bottom: 129px;
 }
+
+#get-in-touch-section .dc-container {
+  display: flex;
+}
+
+#get-in-touch-section .left-div {
+  flex: 0 0 50%;
+}
+
+#get-in-touch-section .left-div h1 {
+  color: white;
+  font-weight: 300;
+}
+
+#get-in-touch-section .left-div p {
+  margin: 29px 0 0 0;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 150%;
+  color: #ffffff;
+  max-width: 380px;
+}
+
+#get-in-touch-section .right-div {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 0 50%;
+}
+
+#get-in-touch-section .right-div form {
+  max-width: 567px;
+  width: 100%;
+}
+
+#get-in-touch-section .right-div .form-group {
+  margin-bottom: 20px;
+}
+
+#get-in-touch-section .right-div .form-group label {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #8aafd8;
+}
+#get-in-touch-section .right-div .form-group .form-control {
+  background: #020132;
+  border: 0.8px solid #8aafd8;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 22px 26px;
+}
+
+#get-in-touch-section .right-div .form-group input {
+  height: 70px;
+}
+
+#get-in-touch-section .right-div .form-group textarea {
+  height: 243px;
+}
+
 /* help styles end */
