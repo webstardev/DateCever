@@ -47,6 +47,31 @@ h6 {
   line-height: 140%;
 }
 
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+
 .btn {
   display: flex;
   justify-content: center;
@@ -69,6 +94,17 @@ h6 {
 
 .btn-gradient-secondary {
   background: linear-gradient(180deg, #00c5c6 0%, #008cec 100%);
+}
+
+.gradient-title {
+  background-color: #010030;
+  background-image: linear-gradient(180deg, #00c5c6 0%, #008cec 100%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 /* .btn-gradient-outline-primary {
@@ -639,10 +675,24 @@ h6 {
   padding-left: 80px;
 }
 
+.howitworks-section-one .title-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.howitworks-section-one .title-wrapper .number-span {
+  position: absolute;
+  width: 80px;
+  left: -80px;
+  top: 0;
+  font-size: 35px;
+  line-height: 160%;
+  font-weight: 600;
+}
+
 .howitworks-section-one .div-text-item h2.title {
   font-size: 35px;
   line-height: 160%;
-  position: relative;
 }
 
 .howitworks-section-one .div-text-item h2.title span {
